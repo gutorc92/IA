@@ -14,12 +14,6 @@ public class DataBase implements Database {
 		}
 		situations.add(situation);
 	}
-	
-	@Override
-	public Collection getCatalogEvaluation() {
-		// TODO Auto-generated method stub
-		return null;
-	}
 
 	@Override
 	public Situation getSituation(int situation) {
