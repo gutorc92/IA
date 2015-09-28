@@ -9,8 +9,8 @@ public class Main {
 	public static void main(String[] args) {
 		Situation sit = new Situation("Josias");
 		String args2[] = {"10","20","5","4"};
-		for(int i= 0; i < 4; i++){
-			double number = Double.parseDouble(args2[i]);
+		for(int i= 0; i < 10; i++){
+			double number = Double.parseDouble(args[i]);
 			Evaluation ev = new Evaluation(number);
 			sit.addEvaluation(ev);
 		}
@@ -32,7 +32,7 @@ public class Main {
 		Iterator diag = engine.run(diagnostic);
 		while(diag.hasNext()){
 			Diagnostic d = (Diagnostic)diag.next();
-			System.out.println("Diag " + d.getResult());
+			System.out.println(d.getResult());
 		}
 		
 	}

@@ -24,7 +24,6 @@ public class DataBase implements Database {
 	@Override
 	public Situation getSituation(int situation) {
 		// TODO Auto-generated method stub
-		System.out.println(situations.size());
 		return situations.get(situation);
 	}
 

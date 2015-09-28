@@ -6,4 +6,4 @@
 (defrule giving-diagnostic 
 (Situation {sum > 30}) 
 => 
-(add (new Diagnostic "doido"))) 
+(add (new Diagnostic "Problemas mentais"))) 
