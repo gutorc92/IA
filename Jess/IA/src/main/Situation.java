@@ -42,6 +42,10 @@ public class Situation implements Serializable {
 		return name;
 	}
 	
+	public double getEvaluation(int position){
+		return evaluations.get(position).getNumber();
+	}
+	
 	public List<Evaluation> getEvaluations(){
 		return evaluations;
 	}
