@@ -8,6 +8,7 @@ public class Situation implements Serializable {
 	private String name;
 	private List<Evaluation> evaluations;
 	private double sum;
+	private int escolaridade;
 	
 	public Situation(String name, List<Evaluation> evaluations, String result){
 		this.name = name;
@@ -57,6 +58,14 @@ public class Situation implements Serializable {
 
 	public void setSum(double sum) {
 		this.sum = sum;
+	}
+
+	public int getEscolaridade() {
+		return escolaridade;
+	}
+
+	public void setEscolaridade(int escolaridade) {
+		this.escolaridade = escolaridade;
 	}
 	
 	

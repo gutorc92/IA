@@ -40,6 +40,7 @@ private void loadOrderData(int situation) throws JessException {
 		engine.add(sit.getName());
 		engine.add(sit.getSum());
 		engine.addAll(sit.getEvaluations());
+		engine.add(sit.getEscolaridade());
 	}
 }
 
